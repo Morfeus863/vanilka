@@ -277,9 +277,9 @@ if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
 throw false
 }
 conn.sendButton(m.chat, `🗂️ ФУНКЦИЯ: ${type} 
-🎚️ ESTADO: ${isEnable ? 'ВЫКЛЮЧЕНА' : 'ВКЛЮЧЕНА'}
-📣 PARA: ${isAll ? 'ДЛЯ БОТА' : isUser ? '' : 'ДЛЯ ГРУППЫ'}`, author, null, [[`${isEnable ? '✖️ ВЫКЛЮЧЕНА ✖️' : '✔️ ВКЛЮЧЕНА ✔️'}`, `${isEnable ? `#выключить ${type}` : `#включить ${type}`}`], ['👾 ГЛАВНОЕ МЕНЮ 👾', '#меню']], m)}
-handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
+🎚️ СТАТУС: ${isEnable ? 'ВКЛЮЧЕНА' : 'ВЫКЛЮЧЕНА'}
+📣 ДЛЯ: ${isAll ? 'БОТА' : isUser ? '' : 'ГРУППЫ'}`, author, null, [[`${isEnable ? '✖️ ВЫКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `#disable ${type}` : `#enable ${type}`}`], ['👾 ГЛАВНОЕ 👾', '#menu']], m)}
+handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^((вкл|выкл)ючить|(tru|fals)e|(turn)?[01])$/i
+handler.command = /^((en|dis)able|(вкл|выкл)ючить|(turn)?[01])$/i
 export default handler
