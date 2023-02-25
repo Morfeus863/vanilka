@@ -108,9 +108,8 @@ let str = `
 *<ЗАГРУЗИТЬ С САЙТОВ/>*
 
 
-° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
+° ඬ⃟📥 _${usedPrefix}тикток *<ваша ссылка на видео>*_
+° ඬ⃟📥 _${usedPrefix}песня *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}ringtone *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}soundcloud *<texto>*_
