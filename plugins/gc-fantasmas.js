@@ -16,9 +16,9 @@ sider.push(member[i])}
 }else {
 total++
 sider.push(member[i])}}}
-	if(total == 0) return conn.reply(m.chat, `*Este grupo no tiene fantasmas :D.*`, m) 
-	m.reply(`*[🌎REVISIÓN DE INACTIVOS🌏]*\n\n*Grupo: ${await conn.getName(m.chat)}*\n*Participantes: ${sum}*\n\n*[ 👻 LISTA DE FANTASMAS 👻 ]*\n${sider.map(v => '🌎👉🏻 @' + v.replace(/@.+/, '')).join('\n')}\n\n*Nota: Esto puede no ser 100% acertado, el Bot inicia el conteo de mensajes a partir de que se activo en este grupo*`, null, { mentions: sider })}
-handler.command = /^(verfantasmas|fantasmas|sider|Sider)$/i
+	if(total == 0) return conn.reply(m.chat, `*В этой группе нет призраков :D.*`, m) 
+	m.reply(`*[🌎ОБЗОР НЕАКТИВНЫХ🌏]*\n\n*Группа: ${await conn.getName(m.chat)}*\n*Участников: ${sum}*\n\n*[ 👻 СПИСОК ПРИЗРАКОВ 👻 ]*\n${sider.map(v => '🌎👉🏻 @' + v.replace(/@.+/, '')).join('\n')}\n\n*Примечание: Это может быть не на 100% правильно, бот начинает подсчет сообщений с того момента, как становится активным в этой группе*`, null, { mentions: sider })}
+handler.command = /^(verfantasmas|призраки|sider|Sider)$/i
 handler.admin = true
 handler.botAdmin = true
 export default handler
