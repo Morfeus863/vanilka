@@ -4,37 +4,37 @@ const { antiToxic, antiTraba, antiviewonce, isBanned, welcome, detect, sWelcome,
 const groupAdmins = participants.filter(p => p.admin)
 const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n')
 const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
-let text = `*「 INFORMACION DEL GRUPO 」*\n
-*IDENTIFICACION DEL GRUPO:* 
+let text = `*「 ИНФОРМАЦИЯ О ГРУППЕ 」*\n
+*НАЗВАНИЕ ГРУППЫ:* 
 ${groupMetadata.id}
 
-*NOMBRE:* 
+*НОМЕР:* 
 ${groupMetadata.subject}
 
-*DESCRIPCION:* 
-${groupMetadata.desc?.toString() || 'SIN DESCRIPCION'}
+*ОПИСАНИЕ:* 
+${groupMetadata.desc?.toString() || 'БЕЗ ОПИСАНИЯ'}
 
-*TOTAL DE PARTICIPANTES:*
+*ВСЕГО УЧАСТНИКОВ*
 ${participants.length} Participantes
 
-*CREADOR DEL GRUPO:* 
+*СОЗДАТЕЛЬ ГРУППЫ:* 
 @${owner.split('@')[0]}
 
-*ADMINS DEL GRUPO:*
+*АДМИНИСТРАТОРЫ ГРУППЫ:*
 ${listAdmin}
 
-*OPCIONES AUTOMATICAS:*
-—◉ WELCOME: ${welcome ? '✅' : '❌'}
-—◉ DETECT: ${detect ? '✅' : '❌'} 
-—◉ ANTILINK: ${antiLink ? '✅' : '❌'} 
-—◉ ANTILINK 𝟸: ${antiLink2 ? '✅' : '❌'} 
-—◉ MODO HORNY: ${modohorny ? '✅' : '❌'} 
-—◉ AUTOSTICKER: ${autosticker ? '✅' : '❌'} 
-—◉ AUDIOS: ${audios ? '✅' : '❌'} 
-—◉ ANTIVIEWONCE: ${antiviewonce ? '✅' : '❌'} 
-—◉ ANTITOXIC: ${antiToxic ? '✅' : '❌'} 
+*ВКЛЮЧЕННЫЕ АВТОМАТИЧЕСКИЕ ФУНКЦИИ:*
+—◉ ПРИВЕТСТВИЕ: ${welcome ? '✅' : '❌'}
+—◉ ОБНАРУЖЕНИЕ: ${detect ? '✅' : '❌'} 
+—◉ АНТИССЫЛКА: ${antiLink ? '✅' : '❌'} 
+—◉ АНТИССЫЛКА 𝟸: ${antiLink2 ? '✅' : '❌'} 
+—◉ 18+: ${modohorny ? '✅' : '❌'} 
+—◉ АВТОСТИКЕР: ${autosticker ? '✅' : '❌'} 
+—◉ ГОЛОСОВЫЕ БОТА: ${audios ? '✅' : '❌'} 
+—◉ АНТИРАЗ: ${antiviewonce ? '✅' : '❌'} 
+—◉ АНТИМАТ: ${antiToxic ? '✅' : '❌'} 
 —◉ ANTITRABA: ${antiTraba ? '✅' : '❌'} 
-—◉ ANTICALL: ${anticall ? '✅' : '❌'} 
+—◉ АНТИЗВОНОК: ${anticall ? '✅' : '❌'} 
 —◉ ANTIPRIVADO: ${antiprivado ? '✅' : '❌'} 
 —◉ ASISTENTE: ${asistente ? '✅' : '❌'} 
 —◉ GRUPOSROL: ${gruposrol ? '✅' : '❌'} 
@@ -43,6 +43,6 @@ conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmi
 }
 handler.help = ['infogrup']
 handler.tags = ['group']
-handler.command = /^(infogrupo|gro?upinfo|info(gro?up|gc))$/i
+handler.command = /^(инфогруппы|gro?upinfo|info(gro?up|gc))$/i
 handler.group = true
 export default handler
