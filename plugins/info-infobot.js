@@ -27,25 +27,25 @@ let info = `
 ╠➥ [🔐] ПРИВЫТНЫХ ЧАТОВ: *${chats.length - groups.length}*
 ╠➥ [🦜] ГРУППОВЫХ АТОВ: *${groups.length}* 
 ╠➥ [💡] ВСЕГО ЧАТОВ: *${chats.length}* 
-╠➥ [🚀] ACTIVIDAD: *${uptime}*
-╠➥ [🎩] USUARIOS: *${totalreg} NUMEROS*
-╠➥ [☑️] AUTOREAD: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
-╠➥ [❗] RESTRICT: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
-╠➥ [💬] ANTIPRIVADO: ${antiprivado ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [🚀] ВПЕМЯ МОЕЙ АКТИВНОСТИ: *${uptime}*
+╠➥ [🎩] ПОЛЬЗОВАТЕЛЕЙ: *${totalreg} NUMEROS*
+╠➥ [☑️] АВТОЧТЕНИЕ: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [❗] БОТАДМИН: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
+╠➥ [💬] АНТИЛИЧКА: ${antiprivado ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
 ╠➥ [📵] ANTILLAMADA: ${antiCall ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
 ╠➥ [💬] PCONLY: ${pconly ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
 ╠➥ [🏢] GCONLY: ${gconly ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
-╠➥ [🌎] MODO: ${self ? '*𝚙𝚛𝚒𝚟𝚊𝚍𝚘*' : '*𝚙𝚞𝚋𝚕𝚒𝚌𝚘*'}
-╠➥ [👨‍🦯] VELOCIDAD:  *${speed} MILISEGUNDOS*
+╠➥ [🌎] РЕЖИМ: ${self ? '*𝚙𝚛𝚒𝚟𝚊𝚍𝚘*' : '*𝚙𝚞𝚋𝚕𝚒𝚌𝚘*'}
+╠➥ [👨‍🦯] ПИНГ:  *${speed} миллисекунд*
 ╠
-╠═〘 🌎ANI MX SCANS🌏 〙 ═
+╠═〘 🌎JoKeR🌏 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: 'INFO DEL BOT',
-body: '🌎ANI MX SCANS🌏',         
+title: 'ИНФОРМАЦИЯ О БОТЕ И ФУНКЦИЯХ',
+body: '🌎JoKeR🌏',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: `https://www.facebook.com/ANIMxSCANS`}}})
+sourceUrl: `https://chat.whatsapp.com/FQ4gui0wUTO94zgP2YUbsH`}}})
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
