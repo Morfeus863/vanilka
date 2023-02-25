@@ -7,8 +7,8 @@ var number = text.split`@`[1]
 var number = text
 }
 	
-if(!text && !m.quoted) return conn.reply(m.chat, `*[❗] USO APROPIADO*\n\n*┯┷*\n*┠≽ ${usedPrefix}daradmin @tag*\n*┠≽ ${usedPrefix}darpoder -> responder a un mensaje*\n*┷┯*`, m)
-if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*[ ⚠️ ] El número ingresado es incorrecto, por favor ingrese el número correcto*`, m)
+if(!text && !m.quoted) return conn.reply(m.chat, `*[❗] ПРАВИЛЬНОЕ ИСПОЛЬЗОВАНИЕ*\n\n*┯┷*\n*┠≽ ${usedPrefix}датьадмина @номер*\n*┠≽ \n*┷┯*`, m)
+if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*[ ⚠️ ] Введенный номер неверен, пожалуйста, введите правильный номер*`, m)
 	
 try {
 if(text) {
@@ -25,7 +25,7 @@ conn.reply(m.chat, `*[ ✅ ] ÓRDENES RECIBIDAS*`, m)
 }}
 handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'promote ' + v)
 handler.tags = ['group']
-handler.command = /^(promote|daradmin|darpoder)$/i
+handler.command = /^(датьадмина|daradmin|darpoder)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
