@@ -12,7 +12,7 @@ conn.sendHydrated(m.chat, `
 📆 *ВЫЛОЖЕНО:* ${publishedTime}
 ⌚ *ПРОДОЛЖИТЕЛЬНОСТЬ:* ${durationH}
 👀 *ПРОСМОТРЕНО:* ${viewH}
-`.trim(), author, thumbnail, `${url}`, 'URL', null, null, [
+`.trim(), author, thumbnail, `${url}`, 'ССЫЛКА', null, null, [
 ['ПЕСНЯ', `${usedPrefix}yta ${url}`],
 ['КЛИП', `${usedPrefix}ytv ${url}`],
 ['ВСЕ РЕЗУЛЬТАТЫ ПОИСКА', `${usedPrefix}playlist ${text}`]  
