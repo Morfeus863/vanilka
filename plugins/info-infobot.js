@@ -24,7 +24,7 @@ let info = `
 ╠➥ [🤴🏻] МОЙ СОЗДАТЕЛЬ: *꧁༺ZloiAdmiN༻꧂ *
 ╠➥ [#️⃣] НОМЕР СОЗДАТЕЛЯ: *wa.me/79524197466*
 ╠➥ [🎳] ПРЕФИКС: *${usedPrefix}*
-╠➥ [🔐] ПРИВЫТНЫХ ЧАТОВ: *${chats.length - groups.length}*
+╠➥ [🔐] ПРИВАТНЫХ ЧАТОВ: *${chats.length - groups.length}*
 ╠➥ [🦜] ГРУППОВЫХ АТОВ: *${groups.length}* 
 ╠➥ [💡] ВСЕГО ЧАТОВ: *${chats.length}* 
 ╠➥ [🚀] ВПЕМЯ МОЕЙ АКТИВНОСТИ: *${uptime}*
