@@ -71,12 +71,12 @@ let str = `
 *📊 Зарегестрированные пользователи: ${rtotalreg}*
 
 
-*<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
+*<ДОБАВИТЬ БОТА В ВАШУ ГРУППУ/>*
 
 ° ඬ⃟👽 _${usedPrefix}добавитьвгруппу *<ссылка на вашу группу>*_
 
 
-*<ACTIVAR O DESACTIVAR/>*
+*<ВКЛЮЧЕНИЕ ОТКЛЮЧЕНИЕ ФУНКЦИЙ/>*
 
 ° ඬ⃟☑️ _${usedPrefix}включить *приветствие*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *приветствие*_
@@ -101,50 +101,28 @@ let str = `
 ° ඬ⃟☑️ _${usedPrefix}включить *антиараб*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *антиараб*_
 
-*<REPORTES DE FALLOS/>*
+*<СООБЩЕНИЕ СОЗДАТЕЛЮ/>*
 
-° ඬ⃟🔰 _${usedPrefix}reporte *<texto>*_
+° ඬ⃟🔰 _${usedPrefix}сообщениесоздателю *<ваш текст>*_
 
-*<DESCARGAS/>*
+*<ЗАГРУЗИТЬ С САЙТОВ/>*
 
-° ඬ⃟📥 _${usedPrefix}facebook *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}stickerpack *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
+
 ° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}xvideosdl *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}play *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playlist2 *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}ringtone *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}soundcloud *<texto>*_
-° ඬ⃟📥 _${usedPrefix}imagen *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}wallpaper *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}wallpaper2 *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
 
-*<GRUPOS/>* 
+*<МЕНЮ ДЛЯ ГРУПП/>* 
 
 ° ඬ⃟💎 _${usedPrefix}добавить *<numero>*_
 ° ඬ⃟💎 _${usedPrefix}снести *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}внимание
-° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
+° ඬ⃟💎 _${usedPrefix}группу *<открыть / закрыть>*_
 ° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _админы *<texto>*_ (uso sin prefijo)
