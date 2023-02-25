@@ -19,14 +19,14 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 let info = `
-╠═〘 INFO DEL BOT 〙 ═
+╠═〘 ИНФОРМАЦИЯ ОБО МНЕ 〙 ═
 ╠
-╠➥ [🤴🏻] CREADOR: *𝓡𝓮𝔂 𝓔𝓷𝓭𝔂𝓶𝓲𝓸𝓷*
-╠➥ [#️⃣] No. DEL CREADOR: *wa.me/5215517489568*
-╠➥ [🎳] PREFIJO: *${usedPrefix}*
-╠➥ [🔐] CHATS PRIVADOS: *${chats.length - groups.length}*
-╠➥ [🦜] CHATS DE GRUPOS: *${groups.length}* 
-╠➥ [💡] CHATS TOTALES: *${chats.length}* 
+╠➥ [🤴🏻] МОЙ СОЗДАТЕЛЬ: *꧁༺ZloiAdmiN༻꧂ *
+╠➥ [#️⃣] НОМЕР СОЗДАТЕЛЯ: *wa.me/79524197466*
+╠➥ [🎳] ПРЕФИКС: *${usedPrefix}*
+╠➥ [🔐] ПРИВЫТНЫХ ЧАТОВ: *${chats.length - groups.length}*
+╠➥ [🦜] ГРУППОВЫХ АТОВ: *${groups.length}* 
+╠➥ [💡] ВСЕГО ЧАТОВ: *${chats.length}* 
 ╠➥ [🚀] ACTIVIDAD: *${uptime}*
 ╠➥ [🎩] USUARIOS: *${totalreg} NUMEROS*
 ╠➥ [☑️] AUTOREAD: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
@@ -49,7 +49,7 @@ sourceUrl: `https://www.facebook.com/ANIMxSCANS`}}})
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
-handler.command = /^(ping|speed|infobot)$/i
+handler.command = /^(ping|speed|информация)$/i
 export default handler
 
 function clockString(ms) {

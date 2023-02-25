@@ -4,19 +4,19 @@ let handler = async (m, { conn, text, isMods, isOwner, isPrems }) => {
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
 let [_, code] = link.match(linkRegex) || []
 
-if (!code) throw '*[ ⚠️ ALERTA ⚠️ ] LINK ERRÓNEO O FALTANTE*\n*👉🏻 INGRESE EL ENLACE DE UN GRUPO*\n\n*ejemplo:*\n*#join https://chat.whatsapp.com/Jgfs9HvNgO80s0OfxiOSfE*\n\n*POR CIERTO ESE ENLACE DE EJEMPLO ES UN GRUPO PARA QUE PUEDAN PEDIR LA SOLICITUD YA QUE LOS PRIVADOS SE ESTARÁN BLOQUEANDO POCO A POCO\n\n*[❗INFO❗] NO RESPONDA A NINGÚN MENSAJE, PUEDE CAUSAR INTERFERENCIA, ESCRÍBALO ÚNICAMENTE COMO MENSAJE NUEVO*'
+if (!code) throw '*[ ⚠️ ВНИМАНИЕ ⚠️ ] НЕВЕРНАЯ ССЫЛКА*\n*👉🏻 ВВЕДИТЕ ССЫЛКУ НА ГРУППУ*\n\n*ПРИМЕР:*\n*#добавить в группу https://chat.whatsapp.com/FQ4gui0wUTO94zgP2YUbsH*\n\n*КСТАТИ, ЭТОТ ПРИМЕР ССЫЛКИ ПРЕДСТАВЛЯЕТ СОБОЙ МОЮ ГРУППУ, ЧТОБЫ ВЫ МОГЛИ ПОГОВОРИТЬ ОБО МНЕ С ВЛАДЕЛЬЦЕМ*'
 
 if ( isPrems || isMods || isOwner || m.fromMe) {
 let res = await conn.groupAcceptInvite(code)
-await m.reply(`*EL BOT SE UNIÓ CON ÉXITO AL GRUPO, DISFRUTE DEL BOT! ✔️*`)
+await m.reply(`*БОТ УСПЕШНО ВСТУПИЛ В ВАШУ ГРУППУ, НАСЛАЖДАЙТЕСЬ БОТОМ! ✔️*`)
 } else {
 const data = global.owner.filter(([id]) => id)
 
-for (let jid of data.map(([id]) => [id] + '@s.whatsapp.net').filter(v => v != conn.user.jid)) await m.reply('*[❗INFO❗] NUEVA SOLICITUD DEL BOT PARA UN GRUPO [❗INFO❗]*\n\n*—◉ NÚMERO SOLICITANTE:* ' + 'wa.me/' + m.sender.split('@')[0] + '\n*—◉ LINK DEL GRUPO DÓNDE SE SOLICITA EL BOT ' + link, jid)
+for (let jid of data.map(([id]) => [id] + '@s.whatsapp.net').filter(v => v != conn.user.jid)) await m.reply('*[❗ИНФОРМАЦИЯ❗] NUEVA SOLICITUD DEL BOT PARA UN GRUPO [❗ИНФОРМАЦИЯ❗]*\n\n*—◉ NÚMERO SOLICITANTE:* ' + 'wa.me/' + m.sender.split('@')[0] + '\n*—◉ LINK DEL GRUPO DÓNDE SE SOLICITA EL BOT ' + link, jid)
 
-await m.reply('*[❗INFO❗] EL LINK DEL GRUPO FUE ENVIADO A MI PROPIETARIO/A*\n\n*👉🏻 SU GRUPO ESTARÁ EN EVALUACIÓN Y EL PROPIETARIO/A DEL BOD DECIDIRÁ SI LO AGREGA O NO*\n\n*[❗INFO❗] ALGUNAS DE LAS RAZONES POR LAS QUE SU SOLICITUD PUEDE SER RECHAZADA:*\n\n*1.- EL BOT ESTÁ SATURADO*\n*2.- SE ELIMINÓ PREVIAMENTE AL BOTE DEL GRUPO DONDE SE ESTÁ SOLICITANDO*\n*3.- EL LINK DEL GRUPO FUE RESTABLECIDO*\n*4.- EL BOT NO SE UNE A GRUPOS POR DECISIÓN DEL PROPIETARIO/A*\N*5.- AÚN NO ESTÁS EN LA ASOCIACIÓN DE GRUPOS*\n\n*👉🏻 TEN EN CUENTA QUE TU SOLICITUD PARA UNIR EL BOT A UN GRUPO PUEDE TARDAR HORAS O DÍAS EN SER RESPONDIDA, TEN PACIENCIA\n\n PARA DAR MÁS RAPIDEZ A ESTE PROCEDIMIENTO PONGA EL COMANDO #RAGOU PARA QUE PUEDAS VER LAS REGLAS DE LA Asociación Y No Se Te Olvide Leer La DESCRIPCIÓN DEL GRUPO DE PETICIONES PARA OBTENER EL COMANDO QUE TE DA EL GRUPO DE LA ASOCIACIÓN')}}
+await m.reply('*[❗ИНФОРМАЦИЯ❗] ССЫЛКА НА ГРУППУ БЫЛА ОТПРАВЛЕНА МОЕМУ ВЛАДЕЛЬЦУ/A*\n\n*👉🏻 ВАША ГРУППА БУДЕТ ПРОХОДИТЬ ОЦЕНКУ, И МОЙ ХОЗЯИН РЕШИТ, ДОБАВЛЯТЬ ЕЕ ИЛИ НЕТ*\n\n*[❗ИНФОРМАЦИЯ❗] НЕКОТОРЫЕ ИЗ ПРИЧИН, ПО КОТОРЫМ ВАШ ЗАПРОС МОЖЕТ БЫТЬ ОТКЛОНЕН:*\n\n*1.- БОТ ЗАГРУЖЕН*\n*2.- РАНЕЕ БОТ БЫЛ УДАЛЕН ИЗ ГРУППЫ, В КОТОРУЮ ПОДАЕТСЯ ЗАЯВКА*\n*3.- ГРУППА ЗАКРЫТА*\n*4.- БОТ НЕ ПРИСОЕДИНЯЕТСЯ К ГРУППАМ ПО РЕШЕНИЮ ВЛАДЕЛЬЦА*\N*5.- ВЫ В ЧЕРНОМ СПИСКЕ У ВЛАДЕЛЬЦА*\n\n*👉🏻 ИМЕЙТЕ В ВИДУ, ЧТО НА ВАШ ЗАПРОС О ПРИСОЕДИНЕНИИ БОТА К ГРУППЕ МОЖЕТ ПОТРЕБОВАТЬСЯ НЕСКОЛЬКО ЧАСОВ ИЛИ ДНЕЙ, ЧТОБЫ ПОЛУЧИТЬ ОТВЕТ, НАБЕРИТЕСЬ ТЕРПЕНИЯ ')}}
 
 handler.help = ['join [chat.whatsapp.com]']
 handler.tags = ['premium']
-handler.command = /^join|nuevogrupo$/i
+handler.command = /^добавитьвгруппу|nuevogrupo$/i
 export default handler

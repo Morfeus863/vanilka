@@ -473,7 +473,7 @@ let mentionedJid = [who]
 conn.sendButton(m.chat, str, wm, pp, 
 /*conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.facebook.com/ANIMxSCANS', 'FACEBOOK', 'https://github.com/ReyEndymion/ANI_MX_SCANS-MD', 'GITHUB', */[
 ['🌹 ВЛАДЕЛЕЦ 🌹', '/владелец'],
-['🐾 ИНФО О БОТЕ 🐾', '/infobot']
+['🐾 ИНФО О БОТЕ 🐾', '/информация']
 ], '', { contextInfo: { mentionedJid }})
 /*await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 type: 'audioMessage', 
