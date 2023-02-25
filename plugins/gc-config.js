@@ -16,7 +16,7 @@ throw `
 *┠┉↯ ${usedPrefix + command} закрыть*
 `.trim()
 await conn.groupSettingUpdate(m.chat, isClose)
-{m.reply('*[ ✔ ] GRUPO CONFIGURADO CORRECTAMENTE*')}
+{m.reply('*[ ✔ ] НАСТРОЙКИ ГРУППЫ ИЗМЕНЕНЫ*')}
 }
 handler.help = ['group open / close', 'grupo abrir / cerrar']
 handler.tags = ['group']
