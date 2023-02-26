@@ -101,7 +101,7 @@ throw false
 }
 chat.detect = isEnable
 break
-case 'удалить':
+case 'снести':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
