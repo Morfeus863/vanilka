@@ -20,7 +20,7 @@ var user = number + '@s.whatsapp.net'
 } 
 } catch (e) {
 } finally {
-conn.groupParticipantsUpdate(m.chat, [user], 'снятьадмина')
+conn.groupParticipantsUpdate(m.chat, [user], 'demote')
 conn.reply(m.chat, `*[ ✅ ] ВЫПОЛНЕНО*`, m)
 }}
 handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'снятьадмина ' + v)
