@@ -34,9 +34,6 @@ ${listAdmin}
 —◉ АНТИРАЗ: ${antiviewonce ? '✅' : '❌'} 
 —◉ АНТИМАТ: ${antiToxic ? '✅' : '❌'} 
 —◉ ANTITRABA: ${antiTraba ? '✅' : '❌'} 
-—◉ ANTIPRIVADO: ${antiprivado ? '✅' : '❌'} 
-—◉ ASISTENTE: ${asistente ? '✅' : '❌'} 
-—◉ GRUPOSROL: ${gruposrol ? '✅' : '❌'} 
 `.trim()
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
