@@ -20,10 +20,10 @@ var user = number + '@s.whatsapp.net'
 } 
 } catch (e) {
 } finally {
-conn.groupParticipantsUpdate(m.chat, [user], 'demote')
+conn.groupParticipantsUpdate(m.chat, [user], 'снятьадмина')
 conn.reply(m.chat, `*[ ✅ ] ВЫПОЛНЕНО*`, m)
 }}
-handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'demote ' + v)
+handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'снятьадмина ' + v)
 handler.tags = ['group']
 handler.command = /^(снятьадмина|quitarpoder|quitaradmin)$/i
 handler.group = true
