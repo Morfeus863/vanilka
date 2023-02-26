@@ -13,50 +13,34 @@ let str = `
 *<MENU AUDIOS/>*
 *- ESCRIBE LAS SIGUIENTES PALABRAS O FRASES SIN NINGUN PREFIJO (#, /, *, .)*
 
-° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
-° ඬ⃟🔊 _Te diagnostico con gay_
-° ඬ⃟🔊 _A nadie le importa_
-° ඬ⃟🔊 _Fiesta del admin_
-° ඬ⃟🔊 _Fiesta del administrador_ 
-° ඬ⃟🔊 _Vivan los novios_
-° ඬ⃟🔊 _Feliz cumpleaños_
-° ඬ⃟🔊 _Noche de paz_
-° ඬ⃟🔊 _Buenos dias_
-° ඬ⃟🔊 _Buenos tardes_
-° ඬ⃟🔊 _Buenos noches_
-° ඬ⃟🔊 _Audio hentai_
-° ඬ⃟🔊 _Chica lgante_
-° ඬ⃟🔊 _Feliz navidad_
-° ඬ⃟🔊 _Vete a la vrg_
-° ඬ⃟🔊 _Pasa pack Bot_
-° ඬ⃟🔊 _Atencion grupo_
-° ඬ⃟🔊 _Marica quien_
-° ඬ⃟🔊 _Murio el grupo_
-° ඬ⃟🔊 _Oh me vengo_
-° ඬ⃟🔊 _tio que rico_
-° ඬ⃟🔊 _Viernes_
-° ඬ⃟🔊 _Baneado_
-° ඬ⃟🔊 _Sexo_
-° ඬ⃟🔊 _Hola_
-° ඬ⃟🔊 _Un pato_
-° ඬ⃟🔊 _Nyanpasu_
-° ඬ⃟🔊 _Te amo_
-° ඬ⃟🔊 _Yamete_
-° ඬ⃟🔊 _Bañate_
-° ඬ⃟🔊 _Es puto_
-° ඬ⃟🔊 _La biblia_
-° ඬ⃟🔊 _Onichan_
-° ඬ⃟🔊 _Mierda de Bot_
-° ඬ⃟🔊 _Siuuu_
-° ඬ⃟🔊 _Epico_
-° ඬ⃟🔊 _Shitpost_
-° ඬ⃟🔊 _Rawr_
-° ඬ⃟🔊 _UwU_
-° ඬ⃟🔊 _:c_
-° ඬ⃟🔊 _a_
+° ඬ⃟🔊 Болею
+° ඬ⃟🔊 Время
+° ඬ⃟🔊 Друг
+° ඬ⃟🔊 Здравствуйте_
+° ඬ⃟🔊 Как дела
+° ඬ⃟🔊 Красавица
+° ඬ⃟🔊 Миша
+° ඬ⃟🔊 Музыка
+° ඬ⃟🔊 Пельмени
+° ඬ⃟🔊 Плов
+° ඬ⃟🔊 Правила
+° ඬ⃟🔊 Представьтесь
+° ඬ⃟🔊 Привет
+° ඬ⃟🔊 С днем рождения
+° ඬ⃟🔊 Секс
+° ඬ⃟🔊 Смешно
+° ඬ⃟🔊 Спасибо
+° ඬ⃟🔊 Спать
+° ඬ⃟🔊 Спокойной ночи
+° ඬ⃟🔊 Суп
+° ඬ⃟🔊 Такси
+° ඬ⃟🔊 Термобелье
+° ඬ⃟🔊 Тост
+° ඬ⃟🔊 Удалить
+° ඬ⃟🔊 Частушки
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, 'https://www.facebook.com/ANIMxSCANS', 'FACEBOOK', null, null, [
-['*MENU PRINCIPAL*', '/menu']
+['*ГЛАВНОЕ МЕНЮ*', '/меню']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
