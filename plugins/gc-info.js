@@ -34,7 +34,6 @@ ${listAdmin}
 —◉ АНТИРАЗ: ${antiviewonce ? '✅' : '❌'} 
 —◉ АНТИМАТ: ${antiToxic ? '✅' : '❌'} 
 —◉ ANTITRABA: ${antiTraba ? '✅' : '❌'} 
-—◉ АНТИЗВОНОК: ${anticall ? '✅' : '❌'} 
 —◉ ANTIPRIVADO: ${antiprivado ? '✅' : '❌'} 
 —◉ ASISTENTE: ${asistente ? '✅' : '❌'} 
 —◉ GRUPOSROL: ${gruposrol ? '✅' : '❌'} 
