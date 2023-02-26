@@ -276,11 +276,11 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
     throw false
     }
-    conn.sendButton(m.chat, `🗂️ OPCIÓN: ${type} 
-    🎚️ ESTADO: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
-    📣 PARA: ${isAll ? '𝙴𝚂𝚃𝙴 𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}`, author, null, [[`${isEnable ? '✖️ 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✖️' : '✔️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✔️'}`, `${isEnable ? `#disable ${type}` : `#enable ${type}`}`], ['👾 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻 👾', '#menu']], m)}
-    handler.help = ['en', 'dis'].map(v => v + 'able <option>')
+    conn.sendButton(m.chat, `🗂️ ФУНКЦИЯ: ${type} 
+    🎚️ ESTADO: ${isEnable ? 'ВКЛЮЧЕНА' : 'ВЫКЛЮЧЕНА'}
+    📣 КОНФИГУРАЦИЯ: ${isAll ? 'ДЛЯ БОТА' : isUser ? '' : 'ДЛЯ ГРУППЫ'}`, author, null, [[`${isEnable ? '✖️ ВЫКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `#false ${type}` : `#true ${type}`}`], ['👾 ГЛАВНОЕ МЕНЮ 👾', '#menu']], m)}
+    handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
     handler.tags = ['group', 'owner']
-    handler.command = /^((en|dis)able|(вкл|выкл)ючить|(turn)?[01])$/i
+    handler.command = /^((вкл|выкл)ючить|(tru|fals)e|(turn)?[01])$/i
     export default handler
     
