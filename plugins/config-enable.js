@@ -281,6 +281,6 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     📣 PARA: ${isAll ? '𝙴𝚂𝚃𝙴 𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}`, author, null, [[`${isEnable ? '✖️ 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✖️' : '✔️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✔️'}`, `${isEnable ? `#disable ${type}` : `#enable ${type}`}`], ['👾 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻 👾', '#menu']], m)}
     handler.help = ['en', 'dis'].map(v => v + 'able <option>')
     handler.tags = ['group', 'owner']
-    handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i
+    handler.command = /^((en|dis)able|(вкл|выкл)ючить|(turn)?[01])$/i
     export default handler
     
