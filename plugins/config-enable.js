@@ -59,6 +59,8 @@ footer: `┏━━━━━━━━━━━━━┓
 ┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиличка*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}включить *антимат*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антимат*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антиараб*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиараб*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}включить *antitraba*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}выключить *antitraba*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}включить *asistente*_
@@ -271,6 +273,14 @@ global.dfail('admin', m, conn)
 throw false
 }}
 chat.gruposrol = isEnable
+break
+case 'антиараб':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiArab = isEnable  
 break
 default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
