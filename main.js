@@ -229,8 +229,8 @@ Object.freeze(global.support)
 }
 setInterval(async () => {
 var a = await clearTmp()
-console.log(chalk.cyanBright(`\n▣────────[ AUTOCLEARTMP ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`))
+console.log(chalk.cyanBright(`\n▣────────[ АВТООЧИСТКА ]───────────···\n│\n▣─❧ УДАЛЕННЫЕ ФАЙЛЫ ✅\n│\n▣────────────────────────────────────···\n`))
 }, 180000)
 _quickTest()
-.then(() => conn.logger.info(`CARGANDO．．．\n`))
+.then(() => conn.logger.info(`МИНУТОЧКУ．．．\n`))
 .catch(console.error)
