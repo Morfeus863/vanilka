@@ -1,4 +1,4 @@
-const toxicRegex = /хуй|пизда|пиздец|пиздато|хуево|заебись|бля|блядь|сука|пидар|пиздобол|пидарас|пидарюга|сука|сука/i
+const toxicRegex = /хуй|пизда|пиздец|пиздато|хуево|заебись|бля|блядь|сука|пидар|пиздобол|пидарас|пидарюга|заебал|выебал/i
 
 export async function before(m, { isAdmin, isBotAdmin, isOwner }) {
     if (m.isBaileys && m.fromMe)
@@ -12,7 +12,7 @@ export async function before(m, { isAdmin, isBotAdmin, isOwner }) {
     
     if (isToxic && chat.antiToxic && !isOwner && !isAdmin) {
        user.warn += 1
-       if (!(user.warn >= 3)) await m.reply(`${user.warn == 1 ? `Привет *@${m.sender.split`@`[0]}*` : `*@${m.sender.split`@`[0]}*`}, подобные слова (${isToxic}) запрещенны в этой группе *${user.warn}/3* предупреждений`, false, { mentions: [m.sender] })
+       if (!(user.warn >= 3)) await m.reply(`${user.warn == 1 ? `Привет *@${m.sender.split`@`[0]}*` : `*@${m.sender.split`@`[0]}*`}, подобные слова (${isToxic}) запрещенны в мой адрес,если не перестанешь,я тебя выкину из группы *${user.warn}/3* предупреждений`, false, { mentions: [m.sender] })
     }
     
     if (user.warn >= 3) {
