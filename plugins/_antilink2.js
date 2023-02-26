@@ -15,7 +15,7 @@ if (m.text.includes(linkThisGroup)) return !0
 if (m.text.includes(linkThisGroup2)) return !0
 if (m.text.includes(linkThisGroup3)) return !0
 }    
-await conn.sendButton(m.chat, `*「 ANTI LINKS 」*\n*HASTA LA VISTA BABY 👋, ${await this.getName(m.sender)} ROMPISTES LAS REGLAS DEL GRUPO, SERAS EXTERMINADO...!!*${isBotAdmin ? '' : '\n\n*[❗INFO❗] EL BOT NO ES ADMIN, NO PUEDE EXTERMINAR A LAS PERSONAS*'}`, author, ['DESACTIVAR ANTILINKS', '/disable antilink'], m)    
+await conn.sendButton(m.chat, `*「 АНТИССЫЛКА 」*\n*АСТАЛАВИСТА,ДЕТКА 👋, ${await this.getName(m.sender)} ССЫЛКИ ЗАПРЕЩЕНЫ!!!ЗА НАРУШЕНИЕ ПРАВИЛ ГРУППЫ ТЫ БОЛЬШЕ ТУТ НЕ ПОЯВИШЬСЯ...!!*${isBotAdmin ? '' : '\n\n*[❗ИНФОРМАЦИЯ❗] ЧТО БЫ Я УДАЛИЛ ЗА ССЫЛКУ ДАВАЙ МНЕ АДМИНКУ*'}`, author, ['DESACTIVAR ANTILINKS', '/disable antilink'], m)    
 if (isBotAdmin && bot.restrict) {
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!bot.restrict) return m.reply('*[❗INFO❗] EL PROPIEARIO DEL BOT NO TIEIE HABILITADO LAS RESTRICCIONES (#_enable restrict_) CONTACTE CON EL PARA QUE LO HABILITE*')

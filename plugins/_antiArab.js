@@ -18,11 +18,6 @@ global.db.data.users[m.sender].banned = true
 m.reply(`✳️ Anti árabes está activo para evitar spam\n\nHasta la próxima`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')} 
 
-if (m.sender.startsWith('7908' || '7908')) {
-    global.db.data.users[m.sender].banned = true
-    m.reply(`✳️ Анти-арабы активны, чтобы предотвратить спам\н \ ндо следующего раза`)
-    await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')} 
-       
    
 }}
 export default handler
