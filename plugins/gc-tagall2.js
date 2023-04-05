@@ -7,395 +7,288 @@ let pesan = args.join` `
 let oi = `*сообщение:* ${pesan}`
 let teks = `*<ВКЛЮЧЕНИЕ ОТКЛЮЧЕНИЕ ФУНКЦИЙ/>*
 
-° ඬ⃟☑️ включить *приветствие*_
-° ඬ⃟☑️ выключить *приветствие*_
-° ඬ⃟☑️ включить *18+*_
-° ඬ⃟☑️ выключить *18+*_
-° ඬ⃟☑️ включить *антиссылка*_
-° ඬ⃟☑️ выключить *антиссылка*_
-° ඬ⃟☑️ включить *антиссылка2*_
-° ඬ⃟☑️ выключить *антиссылка2*_
-° ඬ⃟☑️ включить *обнаружение*_
-° ඬ⃟☑️ выключить *обнаружение*_
-° ඬ⃟☑️ включитьe *голосовые*_
-° ඬ⃟☑️ выключить *голосовые*_
-° ඬ⃟☑️ включить *автостикер*_
-° ඬ⃟☑️ выключить *автостикер*_
-° ඬ⃟☑️ включить *антираз*_
-° ඬ⃟☑️ выключить *антираз*_
-° ඬ⃟☑️ включить *антимат*_
-° ඬ⃟☑️ выключить *антимат*_
-° ඬ⃟☑️ включить *antitraba*_
-° ඬ⃟☑️ выключить *antitraba*_
-° ඬ⃟☑️ включить *антиараб*_
-° ඬ⃟☑️ выключить *антиараб*_
+  включить *приветствие*_
+  выключить *приветствие*_
+  включить *18+*_
+  выключить *18+*_
+  включить *антиссылка*_
+  выключить *антиссылка*_
+  включить *антиссылка2*_
+  выключить *антиссылка2*_
+  включить *обнаружение*_
+  выключить *обнаружение*_
+  включитьe *голосовые*_
+  выключить *голосовые*_
+  включить *автостикер*_
+  выключить *автостикер*_
+  включить *антираз*_
+  выключить *антираз*_
+  включить *антимат*_
+  выключить *антимат*_
+  включить *antitraba*_
+  выключить *antitraba*_
+  включить *антиараб*_
+  выключить *антиараб*_
 
 *<СООБЩЕНИЕ СОЗДАТЕЛЮ/>*
 
-° ඬ⃟🔰 сообщениесоздателю *<ваш текст>*_
+ ඬ⃟🔰 сообщениесоздателю *<ваш текст>*_
 
 *<ЗАГРУЗИТЬ С САЙТОВ/>*
 
 
-° ඬ⃟📥 facebook *<enlace / link / url>*_
-° ඬ⃟📥 instagram *<enlace / link / url>*_
-° ඬ⃟📥 mediafire *<enlace / link / url>*_
-° ඬ⃟📥 instagram *<enlace / link / url>*_
-° ඬ⃟📥 gitclone *<enlace / link / url>*_
-° ඬ⃟📥 stickerpack *<enlace / link / url>*_
-° ඬ⃟📥 gdrive *<enlace / link / url>*_
-° ඬ⃟📥 tiktok *<enlace / link / url>*_
-° ඬ⃟📥 xnxxdl *<enlace / link / url>*_
-° ඬ⃟📥 xvideosdl *<enlace / link / url>*_
-° ඬ⃟📥 ytmp3 *<enlace / link / url>*_
-° ඬ⃟📥 ytmp4 *<enlace / link / url>*_
-° ඬ⃟📥 ytmp3doc *<enlace / link / url>*_
-° ඬ⃟📥 ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 play.1 *<texto / enlace / link / url>*_
-° ඬ⃟📥 play.2 *<texto / enlace / link / url>*_
-° ඬ⃟📥 песня *<артист и название песни>*_
-° ඬ⃟📥 playdoc *<texto>*_
-° ඬ⃟📥 playlist *<texto>*_
-° ඬ⃟📥 playlist2 *<texto>*_
-° ඬ⃟📥 spotify *<texto>*_
-° ඬ⃟📥 ringtone *<texto>*_
-° ඬ⃟📥 soundcloud *<texto>*_
-° ඬ⃟📥 imagen *<texto>*_
-° ඬ⃟📥 pinteret *<texto>*_
-° ඬ⃟📥 wallpaper *<texto>*_
-° ඬ⃟📥 wallpaper2 *<texto>*_
-° ඬ⃟📥 pptiktok *<nombre de usuario>*_
-° ඬ⃟📥 igstalk *<nombre de usuario>*_
-° ඬ⃟📥 igstory *<nombre de usuario>*_
-° ඬ⃟📥 tiktokstalk *<nombre de usuario>*_
+  facebook *<enlace / link / url>*_
+  instagram *<enlace / link / url>*_
+  mediafire *<enlace / link / url>*_
+  instagram *<enlace / link / url>*_
+  gitclone *<enlace / link / url>*_
+  stickerpack *<enlace / link / url>*_
+  gdrive *<enlace / link / url>*_
+  tiktok *<enlace / link / url>*_
+  xnxxdl *<enlace / link / url>*_
+  xvideosdl *<enlace / link / url>*_
+  ytmp3 *<enlace / link / url>*_
+  ytmp4 *<enlace / link / url>*_
+  ytmp3doc *<enlace / link / url>*_
+  ytmp4doc *<enlace / link / url>*_
+  play.1 *<texto / enlace / link / url>*_
+  play.2 *<texto / enlace / link / url>*_
+  песня *<артист и название песни>*_
+  playdoc *<texto>*_
+  playlist *<texto>*_
+  playlist2 *<texto>*_
+  spotify *<texto>*_
+  ringtone *<texto>*_
+  soundcloud *<texto>*_
+  imagen *<texto>*_
+  pinteret *<texto>*_
+  wallpaper *<texto>*_
+  wallpaper2 *<texto>*_
+  pptiktok *<nombre de usuario>*_
+  igstalk *<nombre de usuario>*_
+  igstory *<nombre de usuario>*_
+  tiktokstalk *<nombre de usuario>*_
 
 *<МЕНЮ ДЛЯ ГРУПП/>* 
 
-° ඬ⃟💎 добавить *<numero>*_
-° ඬ⃟💎 снести *<@номер>*_
-° ඬ⃟💎 внимание
-° ඬ⃟💎 группу *<открыть / закрыть>*_
-° ඬ⃟💎 датьадмина *<@номер>*_
-° ඬ⃟💎 снятьадмина *<@номер>*_
-° ඬ⃟💎 _админы *<ваше сообщение админам>*
-° ඬ⃟💎 инфогруппы
-° ඬ⃟💎 ссылкагруппы_
-° ඬ⃟💎 изменитьназвание *<новое название группы>*_
-° ඬ⃟💎 изменитьописание *<новое описание группы>*_
-° ඬ⃟💎 setwelcome *<texto>*_
-° ඬ⃟💎 setbye *<texto>*_
-° ඬ⃟💎 hidetag *<texto>*_
-° ඬ⃟💎 fantasmas_
-° ඬ⃟💎 destraba_
+  добавить *<numero>*_
+  снести *<@номер>*_
+  внимание
+  группу *<открыть / закрыть>*_
+  датьадмина *<@номер>*_
+  снятьадмина *<@номер>*_
+  _админы *<ваше сообщение админам>*
+  инфогруппы
+  ссылкагруппы_
+  изменитьназвание *<новое название группы>*_
+  изменитьописание *<новое описание группы>*_
+  setwelcome *<texto>*_
+  setbye *<texto>*_
+  hidetag *<texto>*_
+  fantasmas_
+  destraba_
 
 
 *<CONVERTIDORES/>*
 
-° ඬ⃟🧧 togifaud *<responde a un video>*_
-° ඬ⃟🧧 toimg *<responde a un sticker>*_
-° ඬ⃟🧧 tomp3 *<responde a un video / nota de voz>*_
-° ඬ⃟🧧 toptt *<responde a un video / audio>*_
-° ඬ⃟🧧 tovideo *<responde a un sticker>*_
-° ඬ⃟🧧 tourl *<responde a un video / imagen / audio>*_
-° ඬ⃟🧧 tts es *<texto>*_
+  togifaud *<responde a un video>*_
+  toimg *<responde a un sticker>*_
+  tomp3 *<responde a un video / nota de voz>*_
+  toptt *<responde a un video / audio>*_
+  tovideo *<responde a un sticker>*_
+  tourl *<responde a un video / imagen / audio>*_
+  tts es *<texto>*_
 
 *<EFECTOS Y LOGOS/>*
 
-° ඬ⃟🖍️ logos *<efecto> <texto>*_
-° ඬ⃟🖍️ logocorazon *<texto>*_
-° ඬ⃟🖍️ logochristmas *<texto>*_
-° ඬ⃟🖍️ simpcard *<@tag>*_
-° ඬ⃟🖍️ hornycard *<@tag>*_
-° ඬ⃟🖍️ lolice *<@tag>*_
-° ඬ⃟🖍️ ytcomment *<texto>*_
-° ඬ⃟🖍️ phmaker *<opcion><responder a imagen>*_
-° ඬ⃟🖍️ itssostupid_
-° ඬ⃟🖍️ pixelar_
-° ඬ⃟🖍️ blur_
+  logos *<efecto> <texto>*_
+  logocorazon *<texto>*_
+  logochristmas *<texto>*_
+  simpcard *<@tag>*_
+  hornycard *<@tag>*_
+  lolice *<@tag>*_
+  ytcomment *<texto>*_
+  phmaker *<opcion><responder a imagen>*_
+  itssostupid_
+  pixelar_
+  blur_
 
-*<FRASES Y TEXTOS/>*
 
-° ඬ⃟🥀 consejo_
-° ඬ⃟🥀 fraseromantica_
-° ඬ⃟🥀 historiaromantica_
 
-*<RANDOM/>*
-
-° ඬ⃟👾 cristianoronaldo_
-° ඬ⃟👾 messi_
-° ඬ⃟👾 meme_
-° ඬ⃟👾 itzy_
-° ඬ⃟👾 blackpink_
-° ඬ⃟👾 kpop *<blackpink / exo / bts>*_
-° ඬ⃟👾 lolivid_
-° ඬ⃟👾 loli_
-° ඬ⃟👾 navidad_
-° ඬ⃟👾 ppcouple_
-° ඬ⃟👾 wpmontaña_
-° ඬ⃟👾 pubg_
-° ඬ⃟👾 wpgaming_
-° ඬ⃟👾 wpaesthetic_
-° ඬ⃟👾 wpaesthetic2_
-° ඬ⃟👾 wprandom_
-° ඬ⃟👾 wallhp_
-° ඬ⃟👾 wpvehiculo_
-° ඬ⃟👾 wpmoto_
-° ඬ⃟👾 coffee_
-° ඬ⃟👾 pentol_
-° ඬ⃟👾 caricatura_
-° ඬ⃟👾 ciberespacio_
-° ඬ⃟👾 technology_
-° ඬ⃟👾 doraemon_
-° ඬ⃟👾 hacker_
-° ඬ⃟👾 planeta_
-° ඬ⃟👾 randomprofile_
-° ඬ⃟👾 neko_
-° ඬ⃟👾 waifu_
-° ඬ⃟👾 akira_
-° ඬ⃟👾 akiyama_
-° ඬ⃟👾 anna_
-° ඬ⃟👾 asuna_
-° ඬ⃟👾 ayuzawa_
-° ඬ⃟👾 boruto_
-° ඬ⃟👾 chiho_
-° ඬ⃟👾 chitoge_
-° ඬ⃟👾 deidara_
-° ඬ⃟👾 erza_
-° ඬ⃟👾 elaina_
-° ඬ⃟👾 eba_
-° ඬ⃟👾 emilia_
-° ඬ⃟👾 hestia_
-° ඬ⃟👾 hinata_
-° ඬ⃟👾 inori_
-° ඬ⃟👾 isuzu_
-° ඬ⃟👾 itachi_
-° ඬ⃟👾 itori_
-° ඬ⃟👾 kaga_
-° ඬ⃟👾 kagura_
-° ඬ⃟👾 kaori_
-° ඬ⃟👾 keneki_
-° ඬ⃟👾 kotori_
-° ඬ⃟👾 kurumi_
-° ඬ⃟👾 madara_
-° ඬ⃟👾 mikasa_
-° ඬ⃟👾 miku_
-° ඬ⃟👾 minato_
-° ඬ⃟👾 naruto_
-° ඬ⃟👾 nezuko_
-° ඬ⃟👾 sagiri_
-° ඬ⃟👾 sasuke_
-° ඬ⃟👾 sakura_
-° ඬ⃟👾 cosplay_
 
 *<COMANDOS +18/>*
 
-° ඬ⃟🔞 pack_
-° ඬ⃟🔞 pack2_
-° ඬ⃟🔞 pack3_
-° ඬ⃟🔞 videoxxx_
-° ඬ⃟🔞 tiktokxxx_
-° ඬ⃟🔞 tetas_
-° ඬ⃟🔞 booty_
-° ඬ⃟🔞 ecchi_
-° ඬ⃟🔞 furro_
-° ඬ⃟🔞 imagenlesbians_
-° ඬ⃟🔞 panties_
-° ඬ⃟🔞 pene_
-° ඬ⃟🔞 porno_
-° ඬ⃟🔞 porno2_
-° ඬ⃟🔞 randomxxx_
-° ඬ⃟🔞 pechos_
-° ඬ⃟🔞 yaoi_
-° ඬ⃟🔞 yaoi2_
-° ඬ⃟🔞 yuri_
-° ඬ⃟🔞 yuri2_
-° ඬ⃟🔞 trapito_
-° ඬ⃟🔞 hentai_
-° ඬ⃟🔞 nsfwloli_
-° ඬ⃟🔞 nsfworgy_
-° ඬ⃟🔞 nsfwfoot_
-° ඬ⃟🔞 nsfwass_
-° ඬ⃟🔞 nsfwbdsm_
-° ඬ⃟🔞 nsfwcum_
-° ඬ⃟🔞 nsfwero_
-° ඬ⃟🔞 nsfwfemdom_
-° ඬ⃟🔞 nsfwglass_
+  pack_
+  pack2_
+  pack3_
+  videoxxx_
+  tiktokxxx_
+  tetas_
+  booty_
+  ecchi_
+  furro_
+  imagenlesbians_
+  panties_
+  pene_
+  porno_
+  porno2_
+  randomxxx_
+  pechos_
+  yaoi_
+  yaoi2_
+  yuri_
+  yuri2_
+  trapito_
+  hentai_
+  nsfwloli_
+  nsfworgy_
+  nsfwfoot_
+  nsfwass_
+  nsfwbdsm_
+  nsfwcum_
+  nsfwero_
+  nsfwfemdom_
+  nsfwglass_
 
 *<EFECTOS DE AUDIOS/>*
 *RESPONDE A UN AUDIO O NOTA DE VOZ*
 
-° ඬ⃟🎤 bass_
-° ඬ⃟🎤 blown_
-° ඬ⃟🎤 deep_
-° ඬ⃟🎤 earrape_
-° ඬ⃟🎤 fast_
-° ඬ⃟🎤 fat_
-° ඬ⃟🎤 nightcore_
-° ඬ⃟🎤 reverse_
-° ඬ⃟🎤 robot_
-° ඬ⃟🎤 slow_
-° ඬ⃟🎤 smooth_
-° ඬ⃟🎤 tupai_
+ bass_
+ blown_
+ deep_
+ earrape_
+ fast_
+ fat_
+ nightcore_
+ reverse_
+ robot_
+ slow_
+ smooth_
+ tupai_
 
-*<CHAT ANONIMO/>*
-
-° ඬ⃟📳 start_
-° ඬ⃟📳 next_
-° ඬ⃟📳 leave_
 
 *<BUSCADORES/>*
 
-° ඬ⃟🔍 stickersearch *<texto>*_
-° ඬ⃟🔍 xnxxsearch *<texto>*_
-° ඬ⃟🔍 animeinfo *<texto>*_
-° ඬ⃟🔍 google *<texto>*_
-° ඬ⃟🔍 letra *<texto>*_
-° ඬ⃟🔍 wikipedia *<texto>*_
-° ඬ⃟🔍 ytsearch *<texto>*_
-° ඬ⃟🔍 apkdone *<texto>*_
-° ඬ⃟🔍 apkgoogle *<texto>*_
-° ඬ⃟🔍 apkmody *<texto>*_
-° ඬ⃟🔍 apkshub *<texto>*_
-° ඬ⃟🔍 happymod *<texto>*_
-° ඬ⃟🔍 hostapk *<texto>*_
-° ඬ⃟🔍 revdl *<texto>*_
-° ඬ⃟🔍 toraccino *<texto>*_
-° ඬ⃟🔍 uapkpro *<texto>*_
+  stickersearch *<texto>*_
+  xnxxsearch *<texto>*_
+  animeinfo *<texto>*_
+  google *<texto>*_
+  letra *<texto>*_
+  wikipedia *<texto>*_
+  ytsearch *<texto>*_
+  apkdone *<texto>*_
+  apkgoogle *<texto>*_
+  apkmody *<texto>*_
+  apkshub *<texto>*_
+  happymod *<texto>*_
+  hostapk *<texto>*_
+  revdl *<texto>*_
+  toraccino *<texto>*_
+  uapkpro *<texto>*_
 
 *<AUDIOS/>* 
 *- ESCRIBE LAS SIGUIENTES PALABRAS O FRASES SIN NINGUN PREFIJO (#, /, *, .)* 
 _(uso sin prefijo)_
 
-° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
-° ඬ⃟🔊 _Te diagnostico con gay_
-° ඬ⃟🔊 _A nadie le importa_
-° ඬ⃟🔊 _Fiesta del admin_
-° ඬ⃟🔊 _Fiesta del administrador_ 
-° ඬ⃟🔊 _Vivan los novios_
-° ඬ⃟🔊 _Feliz cumpleaños_
-° ඬ⃟🔊 _Noche de paz_
-° ඬ⃟🔊 _Buenos dias_
-° ඬ⃟🔊 _Buenos tardes_
-° ඬ⃟🔊 _Buenos noches_
-° ඬ⃟🔊 _Audio hentai_
-° ඬ⃟🔊 _Chica lgante_
-° ඬ⃟🔊 _Feliz navidad_
-° ඬ⃟🔊 _Vete a la vrg_
-° ඬ⃟🔊 _Pasa pack Bot_
-° ඬ⃟🔊 _Atencion grupo_
-° ඬ⃟🔊 _Marica quien_
-° ඬ⃟🔊 _Murio el grupo_
-° ඬ⃟🔊 _Oh me vengo_
-° ඬ⃟🔊 _tio que rico_
-° ඬ⃟🔊 _Viernes_
-° ඬ⃟🔊 _Baneado_
-° ඬ⃟🔊 _Sexo_
-° ඬ⃟🔊 _Hola_
-° ඬ⃟🔊 _Un pato_
-° ඬ⃟🔊 _Nyanpasu_
-° ඬ⃟🔊 _Te amo_
-° ඬ⃟🔊 _Yamete_
-° ඬ⃟🔊 _Bañate_
-° ඬ⃟🔊 _Es puto_
-° ඬ⃟🔊 _La biblia_
-° ඬ⃟🔊 _Onichan_
-° ඬ⃟🔊 _Mierda de Bot_
-° ඬ⃟🔊 _Siuuu_
-° ඬ⃟🔊 _Epico_
-° ඬ⃟🔊 _Shitpost_
-° ඬ⃟🔊 _Rawr_
-° ඬ⃟🔊 _UwU_
-° ඬ⃟🔊 _:c_
-° ඬ⃟🔊 _a_
-
-*<HERRAMIENTAS/>*
-
-° ඬ⃟🛠️ afk *<motivo>*_
-° ඬ⃟🛠️ ocr *<responde a imagen>*_
-° ඬ⃟🛠️ acortar *<enlace / link / url>*_
-° ඬ⃟🛠️ calc *<operacion math>*_
-° ඬ⃟🛠️ del *<respondre a mensaje del Bot>*_
-° ඬ⃟🛠️ whatmusic *<responde a un audio>*_
-° ඬ⃟🛠️ qrcode *<texto>*_
-° ඬ⃟🛠️ readmore *<texto1| texto2>*_
-° ඬ⃟🛠️ spamwa *<numero|texto|cantidad>*_
-° ඬ⃟🛠️ styletext *<texto>*_
-° ඬ⃟🛠️ traducir *<texto>*_
-° ඬ⃟🛠️ nowa *<numero>*_
-
-*<RPG - LIMITES - ECONOMIA/>*
-
-° ඬ⃟💵 balance_
-° ඬ⃟💵 claim_
-° ඬ⃟💵 lb_
-° ඬ⃟💵 levelup_
-° ඬ⃟💵 myns_
-° ඬ⃟💵 perfil_
-° ඬ⃟💵 work_
-° ඬ⃟💵 minar_
-° ඬ⃟💵 buy_
-° ඬ⃟💵 buyall_
-° ඬ⃟💵 transfer *<tipo> <cantidad> <@tag>*_
-° ඬ⃟💵 verificar_
-° ඬ⃟💵 unreg *<numero de serie>*_
+  _Quien es tu sempai botsito 7w7_
+  _Te diagnostico con gay_
+  _A nadie le importa_
+  _Fiesta del admin_
+  _Fiesta del administrador_ 
+  _Vivan los novios_
+  _Feliz cumpleaños_
+  _Noche de paz_
+  _Buenos dias_
+  _Buenos tardes_
+  _Buenos noches_
+  _Audio hentai_
+  _Chica lgante_
+  _Feliz navidad_
+  _Vete a la vrg_
+  _Pasa pack Bot_
+  _Atencion grupo_
+  _Marica quien_
+  _Murio el grupo_
+  _Oh me vengo_
+  _tio que rico_
+  _Viernes_
+  _Baneado_
+  _Sexo_
+  _Hola_
+  _Un pato_
+  _Nyanpasu_
+  _Te amo_
+  _Yamete_
+  _Bañate_
+  _Es puto_
+  _La biblia_
+  _Onichan_
+  _Mierda de Bot_
+  _Siuuu_
+  _Epico_
+  _Shitpost_
+  _Rawr_
+  _UwU_
+  _:c_
+  _a_
 
 *<STICKERS/>*
 
-° ඬ⃟👽 стикер *<отметить изображение или видео>*_
-° ඬ⃟👽 стикер *<ссылка на изображение>*_
-° ඬ⃟👽 с *<отметить изображение или видео>*_
-° ඬ⃟👽 с *<ссылка на изображение>*_
-° ඬ⃟👽 sfull *<responder a imagen o video>*_
-° ඬ⃟👽 emojimix *<emoji 1>&<emoji 2>*_
-° ඬ⃟👽 scircle *<responder a imagen>*_
-° ඬ⃟👽 sremovebg *<responder a imagen>*_
-° ඬ⃟👽 semoji *<tipo> <emoji>*_
-° ඬ⃟👽 attp3 *<texto>*_
-° ඬ⃟👽 pat *<@tag>*_
-° ඬ⃟👽 slap *<@tag>*_
-° ඬ⃟👽 kiss *<@tag>*_
-° ඬ⃟👽 dado_
-° ඬ⃟👽 wm *<packname> <author>*_
-° ඬ⃟👽 stickermarker *<efecto> <responder a imagen>*_
-° ඬ⃟👽 stickerfilter *<efecto> <responder a imagen>*_
+  стикер *<отметить изображение или видео>*_
+  стикер *<ссылка на изображение>*_
+  с *<отметить изображение или видео>*_
+  с *<ссылка на изображение>*_
+  sfull *<responder a imagen o video>*_
+  emojimix *<emoji 1>&<emoji 2>*_
+  scircle *<responder a imagen>*_
+  sremovebg *<responder a imagen>*_
+  semoji *<tipo> <emoji>*_
+  attp3 *<texto>*_
+  pat *<@tag>*_
+  slap *<@tag>*_
+  kiss *<@tag>*_
+  dado_
+  wm *<packname> <author>*_
+  stickermarker *<efecto> <responder a imagen>*_
+  stickerfilter *<efecto> <responder a imagen>*_
 
 *<OWNER Y MODERADORES/>*
 
-° ඬ⃟👑 > *<funcion>*
-° ඬ⃟👑 => *<funcion>*
-° ඬ⃟👑 $ *<funcion>*
-° ඬ⃟👑 cajafuerte_
-° ඬ⃟👑 blocklist_
-° ඬ⃟👑 enable *restrict*_
-° ඬ⃟👑 disable *restrict*_
-° ඬ⃟👑 enable *autoread*_
-° ඬ⃟👑 disable *autoread*_
-° ඬ⃟👑 enable *public*_
-° ඬ⃟👑 disable *public*_
-° ඬ⃟👑 enable *pconly*_
-° ඬ⃟👑 disable *pconly*_
-° ඬ⃟👑 enable *gconly*_
-° ඬ⃟👑 disable *gconly*_
-° ඬ⃟👑 enable *anticall*_
-° ඬ⃟👑 disable *anticall*_
-° ඬ⃟👑 enable *antiprivado*_
-° ඬ⃟👑 disable *antiprivado*_
-° ඬ⃟👑 msg *<texto>*_
-° ඬ⃟👑 banchat_
-° ඬ⃟👑 unbanchat_
-° ඬ⃟👑 banuser *<@tag>*_
-° ඬ⃟👑 unbanuser *<@tag>*_
-° ඬ⃟👑 banuser *<@tag>*_
-° ඬ⃟👑 bc *<texto>*_
-° ඬ⃟👑 bcchats *<texto>*_
-° ඬ⃟👑 bcgc *<texto>*_
-° ඬ⃟👑 cleartpm_
-° ඬ⃟👑 restart_
-° ඬ⃟👑 обновить_
-° ඬ⃟👑 traba1_ 
-° ඬ⃟👑 addprem *<@tag>*_
-° ඬ⃟👑 delprem *<@tag>*_
-° ඬ⃟👑 listprem_\n\n❏ ${oi}\n\n❏ *Участники:*\n`
+  > *<funcion>*
+  => *<funcion>*
+  $ *<funcion>*
+  cajafuerte_
+  blocklist_
+  enable *restrict*_
+  disable *restrict*_
+  enable *autoread*_
+  disable *autoread*_
+  enable *public*_
+  disable *public*_
+  enable *pconly*_
+  disable *pconly*_
+  enable *gconly*_
+  disable *gconly*_
+  enable *anticall*_
+  disable *anticall*_
+  enable *antiprivado*_
+  disable *antiprivado*_
+  msg *<texto>*_
+  banchat_
+  unbanchat_
+  banuser *<@tag>*_
+  unbanuser *<@tag>*_
+  banuser *<@tag>*_
+  bc *<texto>*_
+  bcchats *<texto>*_
+  bcgc *<texto>*_
+  cleartpm_
+  restart_
+  обновить_
+  traba1_ 
+  addprem *<@tag>*_
+  delprem *<@tag>*_
+  listprem_\n\n❏ ${oi}\n\n❏ *Участники:*\n`
  {
 teks += `┣➥ @${mem.id.split('@')[0]}\n`}
 teks += `*└* ★꧁༺JoKeR༻꧂ ★\n\n*▌│█║▌║▌║║▌║▌║▌║█*`
