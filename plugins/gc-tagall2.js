@@ -5,7 +5,7 @@ throw false
 }
 let pesan = args.join` `
 let oi = `*сообщение:* ${pesan}`
-let teks = `Привет!Полное меню бота  ꧁༺JoKeR༻꧂
+let teks = `Привет! Полное меню бота  ꧁༺JoKeR༻꧂
 
 *<ВКЛЮЧЕНИЕ ОТКЛЮЧЕНИЕ ФУНКЦИЙ/>*
 
