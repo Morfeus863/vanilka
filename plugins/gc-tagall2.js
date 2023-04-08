@@ -4,6 +4,7 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
+let pp = './Menu2.jpg'
 let oi = `*сообщение:* ${pesan}`
 let teks = `*<ВКЛЮЧЕНИЕ ОТКЛЮЧЕНИЕ ФУНКЦИЙ/>*
 
