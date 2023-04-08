@@ -1,19 +1,11 @@
-let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command, pp }) => {
+let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command,  }) => {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let pp = './Menu2.jpg'
 let oi = `*сообщение:* ${pesan}`
-let teks = `*Привет! ✨${userm}✨, Полное меню бота  ꧁༺JoKeR༻꧂*
-*📅 Дата: ${week}, ${date}*
-*📈 Время активности: ${uptime}*
-*📊 Зарегестрированные пользователи: ${rtotalreg}*
-
-
-
-*<ВКЛЮЧЕНИЕ ОТКЛЮЧЕНИЕ ФУНКЦИЙ/>*
+let teks = `*<ВКЛЮЧЕНИЕ ОТКЛЮЧЕНИЕ ФУНКЦИЙ/>*
 
 ° ඬ⃟☑️ включить *приветствие*_
 ° ඬ⃟☑️ выключить *приветствие*_
