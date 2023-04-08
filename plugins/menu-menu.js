@@ -3,7 +3,7 @@ const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 import { promises } from 'fs'
 import { join } from 'path'
-let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
+let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname}) => {
 try {
 let vn = './media/menu.mp3'
 let pp = './Menu2.jpg'
