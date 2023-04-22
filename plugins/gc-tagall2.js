@@ -38,38 +38,9 @@ let teks = `Привет! Полное меню бота  ꧁༺JoKeR༻꧂
 
 *<ЗАГРУЗИТЬ С САЙТОВ/>*
 
-
-° ඬ⃟📥 facebook *<enlace / link / url>*_
-° ඬ⃟📥 instagram *<enlace / link / url>*_
-° ඬ⃟📥 mediafire *<enlace / link / url>*_
-° ඬ⃟📥 instagram *<enlace / link / url>*_
-° ඬ⃟📥 gitclone *<enlace / link / url>*_
-° ඬ⃟📥 stickerpack *<enlace / link / url>*_
-° ඬ⃟📥 gdrive *<enlace / link / url>*_
-° ඬ⃟📥 tiktok *<enlace / link / url>*_
-° ඬ⃟📥 xnxxdl *<enlace / link / url>*_
-° ඬ⃟📥 xvideosdl *<enlace / link / url>*_
-° ඬ⃟📥 ytmp3 *<enlace / link / url>*_
-° ඬ⃟📥 ytmp4 *<enlace / link / url>*_
-° ඬ⃟📥 ytmp3doc *<enlace / link / url>*_
-° ඬ⃟📥 ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 play.1 *<texto / enlace / link / url>*_
-° ඬ⃟📥 play.2 *<texto / enlace / link / url>*_
+° ඬ⃟📥 tiktok *ссылка на видео*_
 ° ඬ⃟📥 песня *<артист и название песни>*_
-° ඬ⃟📥 playdoc *<texto>*_
-° ඬ⃟📥 playlist *<texto>*_
-° ඬ⃟📥 playlist2 *<texto>*_
-° ඬ⃟📥 spotify *<texto>*_
-° ඬ⃟📥 ringtone *<texto>*_
-° ඬ⃟📥 soundcloud *<texto>*_
-° ඬ⃟📥 imagen *<texto>*_
-° ඬ⃟📥 pinteret *<texto>*_
-° ඬ⃟📥 wallpaper *<texto>*_
-° ඬ⃟📥 wallpaper2 *<texto>*_
-° ඬ⃟📥 pptiktok *<nombre de usuario>*_
-° ඬ⃟📥 igstalk *<nombre de usuario>*_
-° ඬ⃟📥 igstory *<nombre de usuario>*_
-° ඬ⃟📥 tiktokstalk *<nombre de usuario>*_
+° ඬ⃟📥 spotify *<текст>*_
 
 *<МЕНЮ ДЛЯ ГРУПП/>* 
 
@@ -84,11 +55,9 @@ let teks = `Привет! Полное меню бота  ꧁༺JoKeR༻꧂
 ° ඬ⃟💎 ссылкагруппы_
 ° ඬ⃟💎 изменитьназвание *<новое название группы>*_
 ° ඬ⃟💎 изменитьописание *<новое описание группы>*_
-° ඬ⃟💎 setwelcome *<texto>*_
-° ඬ⃟💎 setbye *<texto>*_
 ° ඬ⃟💎 hidetag *<texto>*_
-° ඬ⃟💎 fantasmas_
-° ඬ⃟💎 destraba_
+° ඬ⃟💎 призраки_
+° ඬ⃟💎 важно_
 
 
 *<CONVERTIDORES/>*
