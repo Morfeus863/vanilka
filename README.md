@@ -12,7 +12,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> cd jok
+> git clone https://github.com/Morfeus863/vanilka.git
+> cd vanilka
 > yarn install 
 > npm update
 > npm start
@@ -22,7 +23,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd jok
+> cd vanilka
 > npm start
 ```
 
@@ -30,7 +31,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd jok
+> cd vanilka
 > rm -rf session.data.json
 > npm start
 ```
