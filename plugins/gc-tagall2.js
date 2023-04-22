@@ -369,7 +369,7 @@ _(uso sin prefijo)_
 ° ඬ⃟👑 listprem_\n\n❏ ${oi}\n\n❏ *Участники:*\n`
  {
 teks += `┣➥ @$\n`}
-teks += `*└* ★꧁༺JoKeR༻꧂ ★\n\n*▌│█║▌║▌║║▌║▌║▌║█*`
+teks += `*└* ★VANILKA★\n\n*▌│█║▌║▌║║▌║▌║▌║█*`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
 handler.help = ['tagall <mesaje>','invocar <mesaje>']
