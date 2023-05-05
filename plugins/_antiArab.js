@@ -63,11 +63,6 @@ global.db.data.users[m.sender].banned = true
 m.reply(`✳️ ИНДУСАМ ЗДЕСЬ НЕ МЕСТО!!!\n\nВСЕГО ДОБРОГО`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
 
-if (m.sender.startsWith('91' || '91')) {
-global.db.data.users[m.sender].banned = true
-m.reply(`✳️ ИНДУСАМ ЗДЕСЬ НЕ МЕСТО!!!\n\nВСЕГО ДОБРОГО`)
-await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
-
 if (m.sender.startsWith('92' || '92')) {
 global.db.data.users[m.sender].banned = true
 m.reply(`✳️ ИНДУСАМ ЗДЕСЬ НЕ МЕСТО!!!\n\nВСЕГО ДОБРОГО`)
